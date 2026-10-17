@@ -1,0 +1,42 @@
+feature,area,priority,original,clone,notes
+Homepage promotions and category entry,Discovery,must,yes,no,Use original campaigns and imagery; do not copy IKEA branding
+Global navigation and category taxonomy,Navigation,must,yes,no,Start with a small set of original categories
+Product search,Discovery,should,yes,no,Search local demo catalogue; autocomplete requires live verification
+Category landing pages,Discovery,must,yes,no,Observed on official category pages
+Product listing cards,Discovery,must,yes,no,Show image name price and optional backed demo ratings
+Sort products,Discovery,should,unknown,no,Exact live sort choices need verification
+Filter products,Discovery,should,unknown,no,Exact live facets need verification
+Product detail page,Product,must,yes,no,Exact template needs a live browser pass
+Product image gallery,Product,should,unknown,no,Use owned licensed or generated images
+Variant selection,Product,must,unknown,no,Implement variants for seeded demo products
+Dimensions and specifications,Product,must,unknown,no,Use original demo data
+Product availability by postcode,Fulfilment,skip,unknown,no,Live availability requires a real service integration
+Add to cart,Cart,must,yes,no,Official shopping guide documents adding products
+View cart and order summary,Cart,must,yes,no,Official guide documents reviewing shopping bag
+Update cart quantity,Cart,must,unknown,no,Expected MVP behavior; verify live original controls
+Remove cart item,Cart,must,unknown,no,Expected MVP behavior; verify live original controls
+Guest checkout,Checkout,must,yes,no,Official help documents guest path
+Member login and IKEA Family,Account,should,yes,no,Prototype can use a clearly-labelled mock account
+Postcode validation,Checkout,must,yes,no,Simulate service zones; do not imply live serviceability
+Home delivery selection,Fulfilment,must,yes,no,Use mock dates and clearly label them
+Click and Collect selection,Fulfilment,must,yes,no,Use mock pickup points and slots
+Collection slot selection,Fulfilment,should,yes,no,Documented in official Click and Collect guide
+Delivery fee calculation,Checkout,should,unknown,no,Use a stated demo rule not live IKEA prices
+Contact and delivery address form,Checkout,must,yes,no,Do not collect real personal data in prototype
+Online payment,Checkout,skip,yes,no,Use simulated payment or sandbox only
+Order confirmation,Checkout,must,yes,no,Generate a fake demo order reference
+Guest order lookup,Orders,should,yes,no,Use seeded fake order number and contact fields
+Member purchase history,Orders,could,yes,no,Requires real authentication for production
+Reschedule delivery,Orders,could,yes,no,Represent as demo only unless integrated
+Returns and damaged-item claim,Support,could,yes,no,Documented self-service feature; backend needed for real cases
+Order spare parts,Support,could,yes,no,Documented service; real fulfilment out of MVP
+Assembly service information,Services,could,yes,no,Official support article describes booking routes
+Inspiration/editorial content,Content,could,yes,no,Use original room inspiration and copy
+Wishlist,Discovery,could,unknown,no,Not established in this desk review
+Room planner or 3D planning,Services,skip,unknown,no,Requires separate research and larger scope
+Responsive mobile navigation,Accessibility,must,unknown,no,Required for a modern responsive web MVP
+Keyboard and screen-reader support,Accessibility,must,unknown,no,Validate against WCAG guidance
+Loading empty error states,UX,must,unknown,no,Implement and test each primary state
+Real stock and logistics integration,Backend,skip,unknown,no,Out of scope until MVP validated
+Real customer accounts and personal data,Backend,skip,unknown,no,Out of scope until secure backend and privacy review
+Production payment and refunds,Backend,skip,unknown,no,Out of scope until explicit approval and compliance review
